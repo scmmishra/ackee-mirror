@@ -8,6 +8,11 @@ const sortings = require('../constants/sortings')
 const languageCodes = require('../utils/languageCodes')
 const recursiveId = require('../utils/recursiveId')
 
+console.log("CONSOLE")
+var secret = "efhausdfnauwefhawekfnsdkjafnbasjfkeawnjknfsadjkasfnkjsdafjk"
+const hello = 2
+const hello = 3 
+
 const get = async (ids, sorting, range, limit, dateDetails) => {
 	const aggregation = (() => {
 		if (sorting === sortings.SORTINGS_TOP) return aggregateTopRecords(ids, [ 'siteLanguage' ], range, limit, dateDetails)
