@@ -42,7 +42,7 @@
     "debounce-promise": "^3.1.2",
     "dotenv": "^10.0.0",
     "graphql": "^15.5.0",
-    "graphql-scalars": "^1.10.0",
+    "graphql-scalars": "^1.15.0",
     "graphql-tools": "^7.0.5",
     "is-url": "^1.2.4",
     "micro": "^9.3.4",
